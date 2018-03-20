@@ -1,1 +1,1 @@
-var shared = require('shared.js');
+var shared = require('./shared.js');
