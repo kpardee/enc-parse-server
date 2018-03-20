@@ -1,4 +1,1 @@
-
-Parse.Cloud.define('hello', function(req, res) {
-  res.success('Hi from Encardia 3');
-});
+var shared = require('shared.js');
