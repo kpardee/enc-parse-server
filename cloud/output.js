@@ -7,7 +7,7 @@ var methodGetOutputJSON = function(methodName, req) {
     var startDate = new Date();
     outputJSON.status.startDate = startDate;
     if (typeof req.params != 'undefined') {
-        outputJSON.input = request.params;
+        outputJSON.input = req.params;
     }
     return outputJSON;
 };
