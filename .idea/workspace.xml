@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6809dc98-a46c-4c56-b330-304582b05b69" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud/main.js" afterPath="$PROJECT_DIR$/cloud/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud/output.js" afterPath="$PROJECT_DIR$/cloud/output.js" />
     </list>
     <ignored path="enc-parse-server.iws" />
@@ -25,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cloud/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="275" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+            <state line="9" column="40" selection-start="318" selection-end="318" vertical-scroll-proportion="0.16071428" vertical-offset="0" max-vertical-offset="840">
               <folding />
             </state>
           </provider>
@@ -46,16 +47,16 @@
       <file leaf-file-name="category.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud/category.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="46" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+            <state line="19" column="66" selection-start="891" selection-end="891" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="output.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="output.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud/output.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="55" selection-start="985" selection-end="985" vertical-scroll-proportion="0.48214287" vertical-offset="0" max-vertical-offset="840">
+            <state line="8" column="18" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
               <folding />
             </state>
           </provider>
@@ -98,8 +99,8 @@
         <option value="$PROJECT_DIR$/cloud/constants.js" />
         <option value="$PROJECT_DIR$/cloud/shared.js" />
         <option value="$PROJECT_DIR$/cloud/category.js" />
-        <option value="$PROJECT_DIR$/cloud/main.js" />
         <option value="$PROJECT_DIR$/cloud/output.js" />
+        <option value="$PROJECT_DIR$/cloud/main.js" />
       </list>
     </option>
   </component>
@@ -334,13 +335,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud/category.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="46" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud/shared.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
@@ -348,16 +342,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud/main.js">
+    <entry file="file://$PROJECT_DIR$/cloud/category.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="275" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+        <state line="19" column="66" selection-start="891" selection-end="891" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud/output.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="55" selection-start="985" selection-end="985" vertical-scroll-proportion="0.48214287" vertical-offset="0" max-vertical-offset="840">
+        <state line="8" column="18" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="40" selection-start="318" selection-end="318" vertical-scroll-proportion="0.16071428" vertical-offset="0" max-vertical-offset="840">
           <folding />
         </state>
       </provider>

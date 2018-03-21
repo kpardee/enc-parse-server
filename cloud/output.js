@@ -1,4 +1,4 @@
-var methodGetOutputJSON = function(methodName, request) {
+var methodGetOutputJSON = function(methodName, req) {
     var outputJSON = {status: {},input: {}, output: {}};
     outputJSON.status.methodName = methodName;
     outputJSON.status.returncode = -1;
@@ -6,7 +6,7 @@ var methodGetOutputJSON = function(methodName, request) {
 
     var startDate = new Date();
     outputJSON.status.startDate = startDate;
-    if (typeof request.params != 'undefined') {
+    if (typeof req.params != 'undefined') {
         outputJSON.input = request.params;
     }
     return outputJSON;
