@@ -10,10 +10,10 @@ Parse.Cloud.define('objectIdGetAsset', function(req, res) {
         return Parse.Promise.as(object);
         outputJSON.output.objects = {};
         outputJSON.output.objects.object = object;
-        outputJSON = encOutput.setResponseStatus(outputJSON, 0, 'complete');
+        outputJSON = encOutput.outputSetStatus(outputJSON, 0, 'complete');
         res.success(output);
     }, function(error) {
-        outputJSON = encOutput.setResponseStatus(outputJSON, error.code, error.message);
+        outputJSON = encOutput.outputSetStatus(outputJSON, error.code, error.message);
         res.error(output);
     });
 });
