@@ -5,7 +5,7 @@ var methodGetOutputJSON = function(methodName, request) {
     outputJSON.status.returnmessage = 'pending';
 
     var startDate = new Date();
-    responseJSON.status.startDate = startDate;
+    outputJSON.status.startDate = startDate;
     if (typeof request.params != 'undefined') {
         outputJSON.input = request.params;
     }
