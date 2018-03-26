@@ -5,16 +5,16 @@ var express = require('express');
 var ParseServer = require('parse-server').ParseServer;
 var path = require('path');
 
-var databaseUri = process.env.DATABASE_URI || process.env.MONGODB_URI;
+var databaseUri = process.env.DATABASE_URI || process.env.MONGODB_URI || 'mongodb://heroku_tp1wg3l2:q3ne6smgm0knbtm0ftlvt3ctsk@ds117489.mlab.com:17489/heroku_tp1wg3l2';
 
 if (!databaseUri) {
   console.log('DATABASE_URI not specified, falling back to localhost.');
 }
 
 var api = new ParseServer({
-  databaseURI: databaseUri || 'mongodb://localhost:27017/dev',
+  databaseURI: databaseUri,
   cloud: process.env.PARSE_CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
-  appId: process.env.PARSE_APP_ID || 'myAppId',
+  appId: process.env.PARSE_APP_ID || 'dev0BaNMlSZgTVkCXm3zIggjaBDJVHnX8qLP9v00Vfh',
   masterKey: process.env.PARSE_MASTER_KEY || '', //Add your master key here. Keep it secret!
   serverURL: process.env.PARSE_SERVER_URL || 'http://localhost:1337/parse',  // Don't forget to change to https if needed
   liveQuery: {
